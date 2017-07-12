@@ -1,4 +1,5 @@
 #include "sum.h"
+/*
 int sum(int n)
 {
 	int res=0;
@@ -6,3 +7,11 @@ int sum(int n)
 		res += i;
 	return res;
 }
+*/
+int sum(int n)
+{
+	int res=0;
+
+	return res = n*(n+1)/2;
+}
+
